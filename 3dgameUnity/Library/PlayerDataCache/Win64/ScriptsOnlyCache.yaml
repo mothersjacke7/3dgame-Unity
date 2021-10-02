@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - Player
     - PlayerJump
+    - Readme
     - TeleportManager
     - UnityTemplateProjects.SimpleCameraController
     - player2
@@ -120,69 +123,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2760}
     - Class: 114
-      Script: {instanceID: 2872}
+      Script: {instanceID: 2874}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 2906}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 3054}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3452}
+      Script: {instanceID: 3454}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3462}
     - Class: 114
-      Script: {instanceID: 3616}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 3686}
+      Script: {instanceID: 3688}
     - Class: 114
-      Script: {instanceID: 3744}
+      Script: {instanceID: 3746}
     - Class: 114
-      Script: {instanceID: 3888}
+      Script: {instanceID: 3890}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 4034}
     - Class: 114
-      Script: {instanceID: 4054}
+      Script: {instanceID: 4056}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 4194}
     - Class: 114
-      Script: {instanceID: 4246}
+      Script: {instanceID: 4248}
     - Class: 114
-      Script: {instanceID: 4276}
+      Script: {instanceID: 4278}
     - Class: 114
-      Script: {instanceID: 4314}
+      Script: {instanceID: 4316}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4408}
     - Class: 114
-      Script: {instanceID: 4410}
+      Script: {instanceID: 4412}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4486}
+      Script: {instanceID: 4488}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 4600}
+      Script: {instanceID: 4602}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 5256}
     - Class: 114
-      Script: {instanceID: 5432}
+      Script: {instanceID: 5434}
     - Class: 114
-      Script: {instanceID: 5484}
+      Script: {instanceID: 5486}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5642}
     - Class: 114
-      Script: {instanceID: 5914}
+      Script: {instanceID: 5916}
     - Class: 114
-      Script: {instanceID: 5962}
+      Script: {instanceID: 5964}
     - Class: 114
-      Script: {instanceID: 6356}
+      Script: {instanceID: 6358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,15 +238,15 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 4194}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 5642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -282,17 +285,68 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4194}
     - Class: 114
-      Script: {instanceID: 4522}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 5640}
+      Script: {instanceID: 4524}
     - Class: 114
-      Script: {instanceID: 22436}
+      Script: {instanceID: 5642}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/LVL4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2606}
+    - Class: 114
+      Script: {instanceID: 4150}
+    - Class: 114
+      Script: {instanceID: 4194}
+    - Class: 114
+      Script: {instanceID: 4432}
+    - Class: 114
+      Script: {instanceID: 4524}
+    - Class: 114
+      Script: {instanceID: 5642}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -500,6 +554,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: a4b334133bdf73770156d0b0d45a2bde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportManager
   - hash:
       serializedVersion: 2
       Hash: 63bdc2cf3273aa9bf650350f19d2af61
@@ -1154,15 +1214,10 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: a4b334133bdf73770156d0b0d45a2bde
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TeleportManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/LVL1.unity
   - Assets/Scenes/LVL2.unity
   - Assets/Scenes/LVL3.unity
+  - Assets/Scenes/LVL4.unity
   playerPath: C:/proga/Kurs/3dgame-Unity/3dgameUnity/3dgameUnity.exe

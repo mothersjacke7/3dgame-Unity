@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -100,10 +100,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 910, y: 442}
-  m_MaxSize: {x: 22005, y: 10021}
+  m_MinSize: {x: 911, y: 442}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 106
+  controlID: 82
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 82
+  controlID: 135
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 439
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -308,9 +308,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ca470000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 609afeff129dfefff89dfeff6c9ffeff52a0feff38a1feff1ea2feff0ca3feffd8a9feffd2aafeffb8abfefffaadfeff50affeff74b0feff5ab1feffa6bafeffa8bafeff38cefeff3acefeff20cffeff06d0feffecd0feffd2d1feffb8d2feffaed3feff94d4feffec46ffffee46ffff7048ffffdc48ffff744affffe44afffff24affff0e4dffff7c6dffffd471ffffba72ffffae77ffffb077ffffb678ffff3e81ffff4081ffff3c82ffffa6aaffffa8aaffff98adffffaaedffffacedffff28f9ffff2af9ffff52fbffff
+      m_ExpandedIDs: 02f6ffff6ef6ffff04f8ffff76f8ffffe6f8fffff4f8ffff52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -409,22 +409,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\proga\Kurs\3dgame-Unity\3dgameUnity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34480000
-    m_LastClickedID: 18484
-    m_ExpandedIDs: 00000000f6470000f8470000fa47000000ca9a3b
+    m_SelectedIDs: fa470000
+    m_LastClickedID: 18426
+    m_ExpandedIDs: 00000000fa470000fc470000fe47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f6470000f8470000fa470000
+    m_ExpandedIDs: 00000000fa470000fc470000fe470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -564,7 +564,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
       y: 21
       width: 789
       height: 419
-    m_Scale: {x: 0.38796297, y: 0.38796297}
+    m_Scale: {x: 0.4074074, y: 0.4074074}
     m_Translation: {x: 394.5, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -585,12 +585,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1016.8496
-      y: -540
-      width: 2033.6992
-      height: 1080
+      x: -968.3182
+      y: -514.2273
+      width: 1936.6364
+      height: 1028.4546
     m_MinimalGUI: 1
-  m_defaultScale: 0.38796297
+  m_defaultScale: 0.4074074
   m_LastWindowPixelSize: {x: 789, y: 440}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.19798717, y: -0.8001449, z: 0.4297726, w: -0.36861566}
     speed: 2
-    m_Value: {x: -0.19798589, y: -0.8001398, z: 0.4297698, w: -0.36861327}
+    m_Value: {x: 0.19798717, y: 0.80014485, z: -0.42977256, w: 0.36861566}
   m_Size:
     m_Target: 18.091925
     speed: 2
