@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Player
     - PlayerJump
+    - TeleportManager
     - UnityTemplateProjects.SimpleCameraController
     - player2
     Unity.RenderPipelines.Core.Runtime.dll:
@@ -32,18 +33,13 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.DebugUIHandlerVector3
     - UnityEngine.Rendering.UI.DebugUIHandlerVector4
     - UnityEngine.Rendering.UI.UIFoldout
-    - UnityEngine.Rendering.Volume
-    - UnityEngine.Rendering.VolumeProfile
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
-    - UnityEngine.Rendering.Universal.Vignette
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -109,10 +105,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 1596}
     - Class: 114
       Script: {instanceID: 1606}
-    - Class: 114
-      Script: {instanceID: 1658}
-    - Class: 114
-      Script: {instanceID: 1822}
     - Class: 114
       Script: {instanceID: 1850}
     - Class: 114
@@ -186,15 +178,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5640}
     - Class: 114
-      Script: {instanceID: 5686}
-    - Class: 114
       Script: {instanceID: 5914}
     - Class: 114
       Script: {instanceID: 5962}
-    - Class: 114
-      Script: {instanceID: 6190}
-    - Class: 114
-      Script: {instanceID: 6292}
     - Class: 114
       Script: {instanceID: 6356}
     - Class: 115
@@ -259,6 +245,57 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5640}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    Assets/Scenes/LVL3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 4148}
+    - Class: 114
+      Script: {instanceID: 4192}
+    - Class: 114
+      Script: {instanceID: 4430}
+    - Class: 114
+      Script: {instanceID: 4522}
+    - Class: 114
+      Script: {instanceID: 5640}
+    - Class: 114
+      Script: {instanceID: 22436}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1117,8 +1154,15 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a4b334133bdf73770156d0b0d45a2bde
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TeleportManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/LVL1.unity
   - Assets/Scenes/LVL2.unity
+  - Assets/Scenes/LVL3.unity
   playerPath: C:/proga/Kurs/3dgame-Unity/3dgameUnity/3dgameUnity.exe
