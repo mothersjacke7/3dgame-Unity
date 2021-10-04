@@ -818,6 +818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Finish
       objectReference: {fileID: 0}
+    - target: {fileID: 14217239776153329, guid: ff95897eb53d45547ad68627545a4196, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 14217239776153333, guid: ff95897eb53d45547ad68627545a4196, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1170,6 +1174,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 428848616779524449, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
+      propertyPath: moveDirection.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 428848616779524453, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1217,6 +1225,14 @@ PrefabInstance:
     - target: {fileID: 428848616779524476, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
       propertyPath: m_Name
       value: Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 428848616779524476, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 428848616779524478, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
+      propertyPath: moveDirection.x
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24cfe7ff0fdc9c3498d9ff881ec72620, type: 3}
