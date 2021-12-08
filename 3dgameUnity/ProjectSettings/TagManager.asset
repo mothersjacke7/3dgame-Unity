@@ -6,6 +6,7 @@ TagManager:
   tags:
   - wall
   - button
+  - bg
   layers:
   - Default
   - TransparentFX
